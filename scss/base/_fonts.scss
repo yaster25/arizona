@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Bold.eot?ver1.0');
+    src: local('Futura PT Bold'), local('FuturaPT-Bold'),
+        url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Bold.woff?ver1.0') format('woff'),
+        url('../fonts/FuturaPT-Bold.ttf?ver1.0') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Medium.eot?ver1.0');
+    src: local('Futura PT Medium'), local('FuturaPT-Medium'),
+        url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Medium.woff?ver1.0') format('woff'),
+        url('../fonts/FuturaPT-Medium.ttf?ver1.0') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Demi.eot?ver1.0');
+    src: local('Futura PT Demi'), local('FuturaPT-Demi'),
+        url('../fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Demi.woff?ver1.0') format('woff'),
+        url('../fonts/FuturaPT-Demi.ttf?ver1.0') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?90830184');
+  src: url('../fonts/fontello.eot?90830184#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?90830184') format('woff2'),
+       url('../fonts/fontello.woff?90830184') format('woff'),
+       url('../fonts/fontello.ttf?90830184') format('truetype'),
+       url('../fonts/fontello.svg?90830184#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never; 
+  display: inline-block;
+  text-decoration: inherit;
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+ 
+.icon-phone:before { content: '\e800'; } /* '' */
+.icon-ruble:before { content: '\e801'; } /* '' */
+.icon-arrow-left:before { content: '\e802'; } /* '' */
+.icon-arrow-right:before { content: '\e803'; } /* '' */
+.icon-facebook:before { content: '\e804'; } /* '' */
+.icon-instagram:before { content: '\e805'; } /* '' */
+.icon-vk:before { content: '\e806'; } /* '' */
+.icon-ok:before { content: '\e80F'; } /* '' */

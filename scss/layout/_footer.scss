@@ -1,0 +1,74 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+
+.footer{
+    background: #fff;
+    padding: 55px 0;
+    position: relative;    
+    text-align: center;
+}
+.copy{
+    padding-bottom: 25px;
+}
+.social{
+    text-align: center;
+    &-item{
+        display:inline-block;
+        margin: 0 13px;
+        vertical-align: middle;
+        &__link{
+            display: block;
+            color: $color-black;            
+            font-size: 18px;
+            line-height: 18px;
+            &:hover{
+                color: $color-orange;
+            }
+            .icon-vk{
+                font-size: 13px;
+            }
+            
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1140px) {
+   
+}
+
+@media screen and (max-width: 991px) {
+    .footer{
+        padding: 35px 0;
+    }
+    
+    
+}
+
+@media screen and (max-width: 740px) {
+   
+}
+
+@media screen and (max-width: 639px) {
+   
+    
+    
+}
+
+@media screen and (max-width: 479px) {
+    .copy{
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    
+}
