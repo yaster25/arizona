@@ -1473,11 +1473,18 @@ div.error { position: absolute; bottom: 10px; color: #df4e49; display: none; fon
     font-size: 12px;
     padding-left: 1px;
 }
+.custom-checkbox label a{
+    color: inherit;
+    opacity: 0.7;
+    text-decoration: underline;
+    white-space: nowrap;
+    &:hover{
+        opacity: 1;
+    }
+}
 
 body.menu-open{overflow:hidden}
-.sidebar{z-index:99991;display:none;width:100%;position:fixed;top:0px;left:0;bottom:0;overflow:auto;-webkit-overflow-scrolling:touch;background:rgba($color-white, 0.75);display: none; padding-right: 50px;-webkit-transition:-webkit-transform .2s;transition:transform .2s; }
-
-.menu-open .sidebar{z-index:99992}
+.sidebar{z-index:99992;display:none;width:100%;position:fixed;top:0px;left:0;bottom:0;overflow:auto;-webkit-overflow-scrolling:touch;background:rgba($color-white, 0.75);display: none; padding-right: 50px;-webkit-transition:-webkit-transform .2s;transition:transform .2s; }
 
 .sidebar-inner{
     z-index:99991;background: #F7F7F7; padding: 15px 20px 15px 20px;top:0;width:100%;bottom:0; max-width: 100%;
@@ -1516,6 +1523,19 @@ body.menu-open{overflow:hidden}
       padding-right: 20px;
 }
 
+.popup-opd{
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #fff;
+    max-width: 800px !important;
+    width: 100%;
+    .title{
+            text-align: left;
+    }
+    .text p {
+        padding-bottom: 23px;
+    }
+}
 
 
 @media screen and (max-width: 1280px) {
